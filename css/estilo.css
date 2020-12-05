@@ -1,0 +1,122 @@
+body, html {
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    height: 100%;
+}
+
+#menu{
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 35px;
+    background: #111;
+    text-align: center; 
+    z-index: 10;
+}
+
+#menu li {
+    padding: 0 0;
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+a:link, a:active, a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dda520;
+    
+}
+
+.conteudo {
+    background: black;
+    padding: 5px 5px;
+}
+
+/*.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+
+}*/
+
+/*efeito parallax*/
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+    position: relative;
+    height: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa1 {
+    background-image: url(../imagens/FOTO\ PARA\ O\ ENCERRAMENTO.png);
+}
+
+.caixa2 {
+    background-image: url(../imagens/fundo\ -\ karyn\ paiva.png);
+}
+
+.caixa3 {
+    background-image: url(../imagens/fundo-\ dani.png);
+}
+
+.caixa4 {
+    background-image: url(../imagens/fundo\ -\ eleonora.png);
+}
+
+.caixa5 {
+    background-image: url(../imagens/fundo\ -\ juma.png);
+}
+
+.content-wrapper {
+    z-index: 1;
+}
+
+.bg-fundo {
+    z-index: 0;
+}
+
+/*videos*/
+
+#area-videos {
+    height: 100%;
+    width: 100%;
+    background: #81ecec;
+    text-decoration: none;
+}
+
+#beneficios {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+#beneficios li {
+    padding: 10px;
+    border-bottom: 1px solid #f3efcb;
+    height: 10em;
+}
+
+
+#beneficios li a h3 {
+    font-size: 1em;
+    color: black;
+    padding: 10px 0;
+}
+
+#beneficios li:hover {
+    background: rgb(7, 223, 223);
+    cursor: pointer;
+}  
